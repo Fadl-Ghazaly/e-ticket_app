@@ -85,9 +85,9 @@ VS_VERSION_INFO VERSIONINFO
  FILETYPE VFT_APP
  FILESUBTYPE 0x0L
 BEGIN
-    BLOCK "StringFileInfo"
+    blocK "StringFileInfo"
     BEGIN
-        BLOCK "040904e4"
+        blocK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
             VALUE "FileDescription", "front_end_flutter" "\0"
@@ -99,7 +99,7 @@ BEGIN
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
-    BLOCK "VarFileInfo"
+    blocK "VarFileInfo"
     BEGIN
         VALUE "Translation", 0x409, 1252
     END
